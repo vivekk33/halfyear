@@ -1,0 +1,262 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek ❤️ Soumya</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            color: #5a3d5c;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        .container.active {
+            display: block;
+        }
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3rem;
+            color: #d6336c;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        button {
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            border: none;
+            background: #d6336c;
+            color: white;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+        button:hover {
+            background: #a72c57;
+        }
+    </style>
+</head>
+<body>
+    <div class="container active" id="slide1">
+        <h1>Vivek & Soumya</h1>
+        <p>(Kannaya & Kannamma 💖)</p>
+        <button onclick="nextSlide()">Our Journey Begins 💫</button>
+    </div>
+    
+    <div class="container" id="slide2">
+        <h2>A Love That Needs No Words</h2>
+        <p>Six months, countless memories, and a love that speaks through every moment we share.</p>
+        <p>This is just a small surprise, my Nanna, to remind you how special you are to me.</p>
+        <button onclick="nextSlide()">Cherish the Moments ❤️</button>
+    </div>
+    
+    <div class="container" id="slide3">
+        <h2>The Day We Became Friends</h2>
+        <p>August 29, 2024 – the day everything started.</p>
+        <p>From the moment we met, happiness became a part of our lives. Without even realizing it, we became more than just friends—we became each other's favorite person.</p>
+        <button onclick="nextSlide()">From Friends to Forever 💞</button>
+    </div>
+
+    <div class="container" id="slide4">
+        <h2>The Night I Almost Lost You</h2>
+        <p>October 30, 2024 – our first fight.</p>
+        <p>That night, around midnight, I blocked you in anger. But by the time morning came, you had already realized how much you loved me. At exactly 6:30 AM on October 31, 2024, you texted me, saying, ‘What are you thinking? First, unblock me.’</p>
+        <p>That message changed everything. It made me realize how much I never wanted to lose you.</p>
+        <button onclick="nextSlide()">Love Always Wins 💖</button>
+    </div>
+
+    <div class="container" id="slide5">
+        <h2>Our First Meeting – A Day to Remember</h2>
+        <p>November 22, 2024 – the first time we saw each other in person.</p>
+        <p>That day was filled with endless happiness. I still remember the way we laughed, the way we looked at each other—it felt like time had stopped. And from that day on, we created even more beautiful moments together, meeting again and again, making memories that I will cherish forever.</p>
+        <button onclick="nextSlide()">Reliving the Magic ✨</button>
+    </div>
+    
+    <div class="container" id="slide6">
+        <h2>A New Year, A Beautiful Surprise</h2>
+        <p>January 1, 2025 – the day my Kannamma made me speechless.</p>
+        <p>You gave me a surprise I can never forget—a heartfelt video filled with so much love. Every second of it made me realize how lucky I am to have you, my Chinni Thalli.</p>
+        <button onclick="nextSlide()">Grateful for You 💝</button>
+    </div>
+    
+    <div class="container" id="slide7">
+        <h2>The First Fight When We Met</h2>
+        <p>"January 4, 2025 – the day we fought in person for the first time."</p>
+        <p>"It was a silly fight, but looking back, even those moments are special. Because even in our disagreements, we found a way back to each other, proving that nothing could break what we have, my Amma.</p>
+        <button onclick="nextSlide()">Love Through Everything 💞</button>
+    </div>
+
+    <div class="container" id="slide8">
+        <h2>A Day Full of Fights, Yet Full of Love</h2>
+        <p>February 7, 2025 – the day we attended a wedding together."</p>
+        <p>"That day was filled with laughter, but also so many fights. We argued, we got frustrated, but in the end, we still chose each other.</p>
+        <p>Even when we fought for the next two weeks over small things, deep down, we knew that our love was stronger than any argument.</p>
+        <p>I'm sorry for all the silly fights, my Kanna—I never want to hurt you."</p>
+        <button onclick="nextSlide()">Dancing Through Life 💃</button>
+    </div>
+  
+    <div class="container" id="slide9">
+      <h2>The Perfect Day – A Fest to Remember</h2>
+      <p>February 22, 2025 – the day we matched, danced, and made unforgettable memories.</p>
+      <p>"You had a college fest, and we wore matching outfits—a black shirt and cream pants. We took the cutest pictures together, laughed endlessly, and danced like no one was watching."</p>
+      <p>"That day was magical. You showered me with kisses, and for a moment, it felt like the whole world disappeared—just me and you, lost in love. My Chinni Thalli, that day is forever in my heart."</p>
+      <button onclick="nextSlide()">Dancing in Love 💃</button>
+    </div> 
+
+     <div class="container" id="slide10">
+      <h2> A Love That Feels Like Home</h2>
+      <p>nanna, being with you is like being home. No matter how tough the day gets,just hearing your voice makes everythingbetter.</p>
+       <p>When you call me "Evandi" I feel like the most important person in this world. When you call me "Chinni tamdri" I feel like I am yours forever.</p>
+       <p>Every name you call me is a reminder that i belong to you, just like you belong to me</p>
+      <button onclick="nextSlide()">about you💃</button>
+    </div> 
+
+       <div class="container" id="slide11">
+       <h2>My Love, My World</h2>
+       <p>"Kannamma, you are my peace, my happiness, my everything.  I can never put into words how much I love you, but I hope this little surprise shows you a piece of my heart."</p>
+       <p>"I don’t need big things in life—I just need you, my Nanna, by my side, always."</p>  
+      <button onclick="nextSlide()">bond💃</button>
+    </div> 
+
+      <div class="container" id="slide12">
+      <h2>Love That Grows Stronger Every Day</h2>
+      <p>"Through every fight, every smile, every tear, we have only become stronger."</p>
+      <p>"We have faced misunderstandings, but in the end, we always find our way back to each other. And that’s how I know—what we share is real, pure, and unbreakable."</p>
+      <button onclick="nextSlide()">forever us</button>
+    </div> 
+
+         <div class="container" id="slide13">
+         <h2>My Heart Belongs to You</h2>
+        <p>"No matter what happens, no matter where life takes us, my heart will always choose you."</p>
+        <p>"You are my comfort, my happiness, my greatest blessing."</p>   
+      <button onclick="nextSlide()">Only you</button>
+    </div>   
+
+        <div class="container" id="slide14">
+        <h2>Looking Ahead—A Lifetime With You</h2>
+        <p>"Six months down, forever to go."</p>
+        <p>"Every moment with you is a memory I cherish, and I can’t wait to create even more beautiful memories together."</p>
+      <button onclick="nextSlide()">Our Forever Starts Here💍✨</button>
+    </div> 
+
+        <div class="container" id="slide15">
+      <h2>A Love That Feels Like Magic</h2>
+      <p>"Have you ever felt like you’ve known someone forever, even if you’ve only met them recently?</p>
+      <p>That's what I feel with you, my Chinni Thalli.</p>
+      <p>"Loving you doesn’t feel like a choice—it feels like something I was meant to do. Like my heart always knew it would find you."</p>
+      <button onclick="nextSlide()">Meant to Be✨💫</button>
+    </div> 
+
+          <div class="container" id="slide16">
+      <h2>More Than Just Love, You Are My Life</h2>
+      <p>"If I could pause time, I would freeze every moment I spend with you, just to relive them forever."</p>
+      <p>"Because every time you smile, every time you call me ‘Evandi’ in that soft voice, every time you fight with me and then make up with a single word—it reminds me that you are my greatest gift."</p>
+      <button onclick="nextSlide()">My Greatest Gift🎁💖</button>
+    </div> 
+
+      <div class="container" id="slide17">
+      <h2> A Forever Promise</h2>
+      <p>"I won’t promise you a life without fights, without silly arguments, or without misunderstandings.</p>
+        <p>But I promise you this:"
+"I will always find a way back to you."
+"I will always love you, no matter what."</p>
+      <button onclick="nextSlide()">Always Yours💍❤️</button>
+    </div> 
+
+      <div class="container" id="slide18">
+      <h2>Just Us, Forever</h2>
+      <p>"Maybe we haven’t said those three words yet:</p>
+      <p>Maybe we don’t need to."
+"Because in every ‘Nanna’ you call me, I hear ‘I love you.’"
+"In every fight we solve, I hear ‘I can’t live without you.’"
+"In every time you hold my hand, I feel ‘I am yours.’"</p>
+        <p>"And you, my Kanna, my Amma, my Chinni Thalli… you are mine."</p>
+      <button onclick="nextSlide()">Only Us💑✨</button>
+    </div> 
+
+      <div class="container" id="slide19">
+      <h2>A Love That Needs No Words</h2>
+        <p>"Nanna… do you know what you mean to me?"</p>
+        <p>"You are my first thought in the morning and my last at night. No matter how busy life gets, my heart always finds its way back to you."</p>
+        <p>"I never believed in destiny, but then I met you. Every fight, every laugh, every moment led us here—to this beautiful journey we call us."</p>
+        <p>"I love how you care for me, how you fight with me only to miss me moments later, how you understand my silence and complete my sentences. You are not just my love—you are my best friend, my home, my forever."</p>
+      <button onclick="nextSlide()">Forever Yours💞</button>
+    </div> 
+
+      <div class="container" id="slide20">
+      <h2>Forever Us</h2>
+      <p>"No matter what life brings, one thing will never change—
+💖 I am yours, and you are mine. Always. 💖"</p>
+      <button onclick="proposalAccepted()">💖 Forever with You 💖</button>
+<button onclick="proposalRejected()">💔 A Life Without You? 💔</button>
+    </div>
+
+    <div class="container" id="slide21">
+    <h2>💍 A Love Meant to Be 💍</h2>
+    <p>"Soumya, you are my everything. My today, my tomorrow, my forever."</p>
+    <p>"With all my heart, I promise to love you endlessly. To stand beside you, to hold your hand through every storm, and to make every moment of our lives magical."</p>
+    <p>"Will you be mine forever, my Kannamma?"</p>
+    <button onclick="restartSlides()">Restart the Journey 🔄</button>
+</div>
+
+    
+   <div class="container" id="slide22">
+    <h2>💔 A Love Worth Fighting For 💔</h2>
+    <p>"My love, I cannot imagine my life without you. You are the reason I smile, the reason I dream, the reason my heart beats faster."</p>
+    <p>"I know love is not always easy, and maybe you have doubts. But what we share is rare, pure, and unbreakable. Can we not give our love a chance?"</p>
+    <p>"Think about every moment we've shared, every time we’ve held each other close. If there is even a tiny place in your heart that wants this love, then..."</p>
+    <button onclick="proposalAccepted()">💖 Say Yes to Love 💖</button>
+    <button onclick="restartSlides()">Restart the Journey 🔄</button>
+</div>
+
+
+    <script>
+    let currentSlide = 1;
+
+    function nextSlide() {
+        document.getElementById(`slide${currentSlide}`).classList.remove("active");
+        currentSlide++;
+        let nextElement = document.getElementById(`slide${currentSlide}`);
+        if (nextElement) nextElement.classList.add("active");
+    }
+
+    function proposalAccepted() {
+        document.getElementById("slide20").classList.remove("active");
+        document.getElementById("slide21").classList.add("active");
+    }
+
+    function proposalRejected() {
+        document.getElementById("slide20").classList.remove("active");
+        document.getElementById("slide22").classList.add("active");
+    }
+
+    function restartSlides() {
+        document.querySelectorAll(".container").forEach(el => el.classList.remove("active"));
+        currentSlide = 1;
+        document.getElementById("slide1").classList.add("active");
+    }
+</script>
+
